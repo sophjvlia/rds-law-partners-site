@@ -1,4 +1,5 @@
 import { ArrowUpRightIcon } from '@heroicons/react/24/outline'
+import logoImage from '../assets/rds-logo.avif'
 
 const exploreLinks = [
   { label: 'Practice Areas', href: '#practice-areas' },
@@ -21,7 +22,7 @@ function Footer() {
       <div className="self-stretch flex flex-col lg:flex-row justify-between items-start gap-10">
         <div className="flex flex-col sm:flex-row items-start gap-10 sm:gap-14">
           <div className="w-16 shrink-0">
-            <img src="src/assets/rds-logo.avif" alt="RDS Law Partners" className="w-full" />
+            <img src={logoImage} alt="RDS Law Partners" className="w-full" />
           </div>
           <nav aria-label="Footer navigation" className="inline-flex flex-col items-start gap-3.5">
             <h2 className="text-zinc-800 text-xs font-semibold">EXPLORE</h2>

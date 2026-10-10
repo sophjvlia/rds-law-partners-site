@@ -1,4 +1,5 @@
 import { UsersIcon, GlobeAsiaAustraliaIcon, BookOpenIcon } from '@heroicons/react/24/outline'
+import architecturalDetailImage from '../assets/architectural-detail.png'
 
 function AboutUsCommitments() {
   return (
@@ -11,7 +12,7 @@ function AboutUsCommitments() {
         <div className="self-stretch justify-start text-white text-3xl sm:text-4xl font-normal font-serif leading-tight sm:leading-[48.64px]">A lasting partnership.<br />A clearer way forward.</div>
         <div className="self-stretch justify-start text-gray-200 text-base font-normal leading-6">Our story begins with a simple conviction: exceptional legal counsel should be as commercially minded as the clients it serves. RDS Law Partners brings independent thinking and a relationship-led approach to commercial law.</div>
         <div className="self-stretch justify-start text-gray-200 text-base font-normal leading-6">We unite corporate, disputes and Islamic finance expertise around a shared purpose — to give clients the confidence to make their next move.</div>
-        <img className="self-stretch h-36" src="src/assets/architectural-detail.png" />
+        <img className="self-stretch h-36" src={architecturalDetailImage} alt="Architectural detail" />
       </div>
       <div id="commitments" className="w-full xl:flex-1 inline-flex flex-col justify-start items-start gap-5">
         <div className="size- inline-flex justify-start items-center gap-3 overflow-hidden">

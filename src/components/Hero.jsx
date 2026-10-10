@@ -1,3 +1,5 @@
+import heroImage from '../assets/klcc-view.png'
+
 function Hero() {
   return (
     <section id="home" className="self-stretch px-6 py-10 sm:px-10 lg:pl-20 lg:pr-12 lg:py-12 flex flex-col lg:flex-row justify-start items-start lg:items-center gap-10 lg:gap-16 overflow-hidden">
@@ -17,7 +19,7 @@ function Hero() {
         </div>
       </div>
       <div className="w-full lg:w-[616px] h-[300px] sm:h-[420px] lg:h-[560px] relative shrink-0 inline-flex flex-col justify-start items-start overflow-hidden">
-        <img className="self-stretch flex-1 object-cover" src="src/assets/klcc-view.png" alt="A commercial perspective" />
+        <img className="self-stretch flex-1 object-cover" src={heroImage} alt="A commercial perspective" />
         <div className="w-64 sm:w-80 p-4 sm:p-5 left-4 sm:left-6 bottom-4 sm:bottom-6 absolute bg-white flex flex-col justify-start items-start gap-2">
           <div className="self-stretch justify-start text-purple text-[10px] font-normal">A COMMERCIAL PERSPECTIVE</div>
           <div className="self-stretch justify-start text-zinc-800 text-lg font-normal font-serif leading-7">Built on trust.<br />Focused on you.</div>

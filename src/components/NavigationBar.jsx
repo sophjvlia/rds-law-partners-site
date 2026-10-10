@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import logoImage from '../assets/rds-logo.avif'
 
 function NavigationBar() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -13,7 +14,7 @@ function NavigationBar() {
   return (
     <nav id="navigation" className="sticky top-0 z-50 self-stretch h-20 px-4 md:px-8 lg:h-24 lg:px-16 bg-white border-b border-dark-purple/10 shadow-[0_4px_18px_rgba(36,22,43,0.16)] flex flex-wrap justify-between items-center">
       <div className="w-20 sm:w-24">
-        <img src="src/assets/rds-logo.avif" alt="RDS Law Partners Logo" />
+        <img src={logoImage} alt="RDS Law Partners Logo" />
       </div>
       <button
         type="button"
