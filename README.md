@@ -1,8 +1,8 @@
 # RDS Law Partners
 
-A redesign prototype of an existing law firm's website.
+A redesign prototype of RDS Law Partners' website as a Single Page Application (SPA).
 
-## Technologies
+## Technologies Used
 
 - React
 - Vite
